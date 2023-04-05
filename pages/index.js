@@ -12,12 +12,12 @@ export default function Home() {
       </Head>
       <div className='bg-white dark:bg-black relative'>
         <Header />
-        <div className='dark:bg-zinc-900 bg-gray-200 min-h-screen w-screen pt-20 px-10'>
-          <div className='fixed h-screen left-0 top-[5rem] w-[30%] px-3 text-gray-800 dark:text-gray-100 space-y-3 overflow-hidden pb-32'>
+        <div className='dark:bg-zinc-900 bg-gray-200 h-screen overflow-auto w-screen pt-20 px-10 scrollbar-hide'>
+          <div className='fixed h-screen left-0 top-[5rem] w-[25%] px-3 text-gray-800 dark:text-gray-100 space-y-3 overflow-hidden pb-32'>
             <Info />
             <AboutMe />
           </div>
-          <div className='w-[50%] mx-[30%]'>
+          <div className='w-[50%] mx-[27%]'>
             <div className='w-full space-y-10 pb-5'>
               <Project />
             </div>

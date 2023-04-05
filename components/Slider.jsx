@@ -16,7 +16,7 @@ function Slider({ images }) {
   return (
     <div
       style={{ backgroundImage: `url(${images[curIndex]})` }}
-      className='rounded-lg bg-center bg-cover duration-500 relative w-full'
+      className='rounded-lg bg-center bg-cover duration-500 relative w-full h-[50vh] object-contain mt-5'
     >
       {images.length > 1 ? (
         <>
