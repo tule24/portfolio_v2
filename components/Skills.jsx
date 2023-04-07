@@ -9,7 +9,7 @@ function Skills() {
             <div className='h-[80vh] ml-2 overflow-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-400 scrollbar-thumb-rounded-lg space-y-2'>
                 <div className='space-y-2'>
                     <p className='font-semibold text-violet-600 tracking-widest'>Programming language</p>
-                    <div className='grid sm:grid-cols-2 grid-cols-1'>
+                    <div className='grid grid-cols-2'>
                         <div className='flex flex-col items-center justify-center'>
                             <Image src={images.javascript} width={50} height={50} className='rounded-full' alt='js'/>
                             <p>Javascripts</p>
@@ -22,7 +22,7 @@ function Skills() {
                 </div>
                 <div className='space-y-2'>
                     <p className='font-semibold text-violet-600 tracking-widest'>Framework & Database</p>
-                    <div className='grid sm:grid-cols-2 grid-cols-1'>
+                    <div className='grid grid-cols-2'>
                         <div className='flex flex-col items-center justify-center'>
                             <Image src={images.react} width={50} height={50} className='rounded-full' alt='react'/>
                             <p>React JS</p>

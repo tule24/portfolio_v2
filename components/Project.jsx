@@ -5,7 +5,6 @@ import Slider from './Slider'
 import images from '../img'
 import Image from 'next/image'
 import { BiCake, BiEnvelope, BiHome, BiPhone } from 'react-icons/bi'
-import { Element } from 'react-scroll'
 const wallet = [
     'https://res.cloudinary.com/dy6zbixol/image/upload/v1680682948/portfolio/wallet-0_pm00bh.png',
     'https://res.cloudinary.com/dy6zbixol/image/upload/v1680682948/portfolio/wallet-1_qy4dwt.png',
@@ -39,7 +38,7 @@ function Project() {
                 </div>
                 <div className="sm:pl-10 pl-5">
                     <div>
-                        <h2 className="font-semibold sm:text-3xl text-2xl text-2xl uppercase">Le Cong Tu</h2>
+                        <h2 className="font-semibold sm:text-3xl text-2xl uppercase">Le Cong Tu</h2>
                         <h2>Web Developer</h2>
                     </div>
                     <div className="space-y-2 mt-5 sm:block hidden">
@@ -74,8 +73,7 @@ function Project() {
                     <a href="https://github.com/tule24/Social_project_fe" target='_blank' className='text-violet-600'>FE</a>
                 </p>
                 <p className='text-black dark:text-white font-semibold text-sm'>Demo: &nbsp;
-                    <a href="https://youtu.be/NI7Djuy6Ii8" target='_blank' className='text-red-500'>Youtube</a> | &nbsp;
-                    <a href="https://nft-marketplace-tule.vercel.app/" target="_blank" className='text-green-500'>Live demo</a>
+                    <a href="https://tule-social.netlify.app" target="_blank" className='text-green-500'>Live demo</a>
                 </p>
                 <div className='mt-5'>
                     <p className='text-justify font-semibold'>Main function: </p>
