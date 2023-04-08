@@ -28,6 +28,15 @@ const dex = [
     'https://res.cloudinary.com/dy6zbixol/image/upload/v1680684959/portfolio/dex-3_w72aba.png',
     'https://res.cloudinary.com/dy6zbixol/image/upload/v1680684959/portfolio/dex-4_g4pwcb.png'
 ]
+const social = [
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915956/portfolio/social-0_uxdd03.png',
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915956/portfolio/social-1_m9ativ.png',
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915956/portfolio/social-2_pd6zt8.png',
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915956/portfolio/social-3_g645s9.png',
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915956/portfolio/social-4_tgmyzi.png',
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915957/portfolio/social-5_h0b2cb.png',
+    'https://res.cloudinary.com/dy6zbixol/image/upload/v1680915956/portfolio/social-6_nprhfs.png'
+]
 const ecom = ['https://res.cloudinary.com/dy6zbixol/image/upload/v1680685379/portfolio/ecommerce_fgnwwh.png']
 function Project() {
     return (
@@ -91,8 +100,13 @@ function Project() {
                         <li>Light, dark theme</li>
                         <li>Reponsive desktop, tablet, mobile</li>
                     </ul>
+                    <p className='text-justify font-semibold mt-2 text-sm'>Note: </p>
+                    <ul className='list-disc ml-5 text-sm italic'>
+                        <li>It is recommended to use 2 accounts on 2 different browsers to experience all the features of the website</li>
+                        <li>Initial loading may be slow, but then loading is quicker than</li>
+                    </ul>
                 </div>
-                <Slider images={ecom} />
+                <Slider images={social} />
             </div>
             <div className="flex flex-col mb-10 w-full p-6 overflow-hidden rounded-lg my-shadow bg-zinc-100 dark:text-gray-100 dark:bg-zinc-800">
                 <h2 className='sm:text-3xl text-2xl tracking-wider font-semibold'>Ecommerce API <span className='text-lg'>(BE)</span></h2>

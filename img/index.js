@@ -14,9 +14,7 @@ import graphql from './graphql.png'
 import rust from './rust.png'
 import apollo from './apollo.png'
 import ether from './ether.png'
-import polkadot from './polkadot.png'
 export default {
-    polkadot,
     ether,
     apollo,
     rust,
