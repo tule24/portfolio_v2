@@ -70,7 +70,7 @@ function Skills() {
                             <p>Apollo</p>
                         </div>
                     </div>
-                    <div className='grid grid-cols-2'>
+                    {/* <div className='grid grid-cols-2'>
                         <div className='flex flex-col items-center justify-center'>
                             <Image src={images.rust} width={50} height={50} className='rounded-full' alt='rust' />
                             <p>Rust</p>
@@ -79,7 +79,7 @@ function Skills() {
                             <Image src={images.ether} width={50} height={50} className='rounded-full' alt='ether' />
                             <p>Ethers</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
