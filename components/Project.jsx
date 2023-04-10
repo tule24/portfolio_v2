@@ -90,13 +90,14 @@ function Project() {
                         <li>Using GraphQL query, mutation, subscription</li>
                         <li>Register, login, authentication with token, refreshtoken using JWT</li>
                         <li>Add friend, send friend request, confirm friend request</li>
-                        <li>Create, edit, delete post with 3 vision: private, friend, public</li>
+                        <li>Create, edit, delete post with 3 vision: private(only owner view), friend(owner & owner's friends view), public(everyone view)</li>
                         <li>Store image on cloudinary</li>
                         <li>Scroll infinite to show post</li>
                         <li>Like, unlike post, comment, replies</li>
+                        <li>Show user like post, comment, replies</li>
                         <li>2 level comments, create, edit, delete comment, replies</li>
-                        <li>Realtime user chat</li>
-                        <li>Realtime push notification</li>
+                        <li>User chat real-time</li>
+                        <li>Push real-time notification when users comment or react to your post, or you have a friend's request or confirm.</li>
                         <li>Light, dark theme</li>
                         <li>Reponsive desktop, tablet, mobile</li>
                     </ul>
