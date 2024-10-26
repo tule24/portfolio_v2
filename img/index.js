@@ -14,7 +14,22 @@ import graphql from './graphql.png'
 import rust from './rust.png'
 import apollo from './apollo.png'
 import ether from './ether.png'
+import dart from './dart.png'
+import elastic from './elastic.png'
+import flutter from './flutter.png'
+import nest from './nest.png'
+import pg from './postgre.png'
+import strapi from './strapi.png'
+import ts from './ts.png'
+
 export default {
+    ts,
+    strapi,
+    pg,
+    nest,
+    flutter,
+    elastic,
+    dart,
     ether,
     apollo,
     rust,
