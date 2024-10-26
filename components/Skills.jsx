@@ -15,11 +15,11 @@ function Skills() {
                             <p>Javascript</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.solidity} width={50} height={50} className='rounded-full' alt='typescript' />
+                            <Image src={images.ts} width={50} height={50} className='rounded-full' alt='typescript' />
                             <p>Typescript</p>
                         </div>
                           <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.solidity} width={50} height={50} className='rounded-full' alt='dart' />
+                            <Image src={images.dart} width={50} height={50} className='rounded-full' alt='dart' />
                             <p>Dart</p>
                         </div>
                     </div>
@@ -40,19 +40,19 @@ function Skills() {
                             <p>Node JS</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.node} width={50} height={50} className='rounded-full' alt='nest' />
+                            <Image src={images.nest} width={50} height={50} className='rounded-full' alt='nest' />
                             <p>Nest JS</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.node} width={50} height={50} className='rounded-full' alt='flutter' />
+                            <Image src={images.flutter} width={50} height={50} className='rounded-full' alt='flutter' />
                             <p>Flutter</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.mongodb} width={50} height={50} className='rounded-full' alt='postgres' />
+                            <Image src={images.pg} width={50} height={50} className='rounded-full' alt='postgres' />
                             <p>PostgreSQL</p>
                         </div>
                          <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.mongodb} width={50} height={50} className='rounded-full' alt='elastic' />
+                            <Image src={images.elastic} width={50} height={50} className='rounded-full' alt='elastic' />
                             <p>Elasticsearch</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -69,7 +69,7 @@ function Skills() {
                             <p>GrahpQL</p>
                         </div>
                          <div className='flex flex-col items-center justify-center'>
-                            <Image src={images.redux} width={50} height={50} className='rounded-full' alt='redux' />
+                            <Image src={images.strapi} width={50} height={50} className='rounded-full' alt='redux' />
                             <p>Strapi</p>
                         </div>
                        <div className='flex flex-col items-center justify-center'>
